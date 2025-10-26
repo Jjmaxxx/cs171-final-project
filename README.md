@@ -5,8 +5,12 @@
 - Jjmaxxx ([Jjmaxxx](https://github.com/Jjmaxxx))
 
 ## Project Description
-We plan to predict daily Air Quality Index (AQI) levels in California using weather and pollutant data.  
-Our goal is to explore relationships between temperature, humidity, wind speed, and air pollution using machine-learning models.
+Air pollution is a growing concern in California, affecting both health and the environment.  
+This project aims to **predict daily Air Quality Index (AQI)** levels using weather and pollution data.  
+By analyzing temperature, humidity, wind speed, and pollutant concentrations, we hope to find patterns that influence air quality.  
+Our goal is to build a simple machine-learning model to forecast AQI and help visualize how environmental factors impact air pollution.  
+The findings can support early warnings and promote awareness about air quality changes.
+
 
 ## Project Plan
 - Collect and clean public air-quality and weather datasets (EPA AirNow / Kaggle).  
