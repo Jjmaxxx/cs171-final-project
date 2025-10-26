@@ -1,1 +1,15 @@
-data/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data
+/data/*
+!data/README.md
+
+# Notebooks
+*.ipynb
+
+# System files
+.DS_Store
+.env
