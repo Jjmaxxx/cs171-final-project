@@ -13,8 +13,9 @@
 
 
 ## Project Plan
-- Collect and clean public air-quality and weather datasets (EPA AirNow / Kaggle).  
-- Train simple models such as Linear Regression and Random Forest to forecast AQI.  
+- Collect and clean public air-quality and weather datasets (EPA AirNow / Kaggle).
+- Clean the datasets for training
+- Train simple models such as Linear Regression and Neural Networks to forecast AQI.  
 - Evaluate performance and visualize results.
 
 ### Vince Lai – Data Collection Plan
