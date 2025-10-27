@@ -31,7 +31,7 @@ I will experiment with different architectures, activation functions, and optimi
 ## Timeline
 Week 9 – Create repo   |  Week 10 – Data Prep   |  Week 11 – Model Train   |  Week 12 – Analysis & Presentation
 
-## 🧾 License
+## License
 This project is licensed under the **MIT License**.
 
 
