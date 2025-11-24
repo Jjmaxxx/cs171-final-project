@@ -8,8 +8,11 @@
 - Air pollution is a global concern that impacts public health and the environment.
 - Our project aims to predict air quality levels (pollutant concentrations) using historical sensor measurements and weather data.
 - We use a public Air Quality dataset recorded in an Italian city (UCI Machine Learning Repository), which includes:
+
 CO, NO₂, NOₓ, Benzene concentrations
+
 Temperature, humidity, absolute humidity
+
 Chemical sensor responses
 
 - Our goal is to create a machine-learning model that predicts pollutant levels based on these environmental features. The project demonstrates the process of data cleaning, feature engineering, model training, and result interpretation.
