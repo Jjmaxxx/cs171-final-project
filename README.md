@@ -1,25 +1,29 @@
-# CS171 Final Project — Predicting Air Quality in California
+# CS171 Final Project — Predicting Air Quality Using Sensor & Weather Data
 
 ## Authors
 - Vince Lai ([VinceLai1026](https://github.com/VinceLai1026))
 - Jjmaxxx ([Jjmaxxx](https://github.com/Jjmaxxx))
 
 ## Project Description
-- Air pollution is a growing concern in California, affecting both health and the environment.  
-- This project aims to **predict daily Air Quality Index (AQI)** levels using weather and pollution data.  
-- By analyzing temperature, humidity, wind speed, and pollutant concentrations, we hope to find patterns that influence air quality.  
-- Our goal is to build a simple machine-learning model to forecast AQI and help visualize how environmental factors impact air pollution.  
-- The findings can support early warnings and promote awareness about air quality changes.
+- Air pollution is a global concern that impacts public health and the environment.
+- Our project aims to predict air quality levels (pollutant concentrations) using historical sensor measurements and weather data.
+- We use a public Air Quality dataset recorded in an Italian city (UCI Machine Learning Repository), which includes:
++ CO, NO₂, NOₓ, Benzene concentrations
++ Temperature, humidity, absolute humidity
++ Chemical sensor responses
+
+- Our goal is to create a machine-learning model that predicts pollutant levels based on these environmental features. The project demonstrates the process of data cleaning, feature engineering, model training, and result interpretation.
 
 
 ## Project Plan
-- Collect and clean public air-quality and weather datasets (EPA AirNow / Kaggle).
-- Clean the datasets for training
-- Train simple models such as Linear Regression and Neural Networks to forecast AQI.  
-- Evaluate performance and visualize results.
+- Collect and load the Air Quality dataset (UCI / Kaggle version).
+- Clean the dataset and handle missing values.
+- Perform exploratory data analysis (EDA).
+- Train machine-learning models (Linear Regression, Neural Networks, etc.).
+- Evaluate performance and produce visualizations.
 
 ### Vince Lai – Data Collection Plan
-I will collect air quality and weather data using the **EPA AirNow API** and **Kaggle public datasets**.  
+I will collect air quality and weather data using the  **Kaggle public datasets**.  
 I will clean the data, remove missing values, and save the processed data into `.csv` format for training.  
 This includes basic preprocessing and merging datasets into a single DataFrame for model input.
 
