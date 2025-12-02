@@ -7,9 +7,6 @@ __pycache__/
 /data/*
 !data/README.md
 
-# Notebooks
-*.ipynb
-
 # System files
 .DS_Store
 .env
