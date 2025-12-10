@@ -123,7 +123,7 @@ Key findings:
 ## Installation Instructions
 Install required packages:
 
-pip install pandas numpy matplotlib seaborn scikit-learn torch
+``` pip install pandas numpy matplotlib seaborn scikit-learn torch ``` 
 
 Run order:
 1. Preprocessing notebooks
