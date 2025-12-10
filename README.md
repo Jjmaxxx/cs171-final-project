@@ -1,6 +1,5 @@
 # CS171 Final Project — Air Quality Prediction
-
-## Authors
+### Authors
 - Vince Lai ([VinceLai1026](https://github.com/VinceLai1026))
 - Jjmaxxx ([Jjmaxxx](https://github.com/Jjmaxxx))
 ### Instructor: Dr. Mike Wood  
@@ -121,6 +120,7 @@ Key findings:
 
 ## Installation Instructions
 Install required packages:
+
 pip install pandas numpy matplotlib seaborn scikit-learn torch
 
 Run order:
