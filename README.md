@@ -141,9 +141,6 @@ All notebooks run on any OS with Python 3.10+.
 ## Project Status: Complete and Ready for Grading
 Thank you for reviewing our project!
 
-## License
-This project is licensed under the **MIT License**.
-
 
 
 
