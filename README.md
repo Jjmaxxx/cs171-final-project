@@ -5,7 +5,6 @@
 - Jjmaxxx ([Jjmaxxx](https://github.com/Jjmaxxx))
 ## Instructor: Dr. Mike Wood 
 ## Semester: Fall 2025 
-
 This project predicts next-hour Air Quality Index (AQI) using pollutant sensor data and weather measurements from the UCI Air Quality Dataset.
 We trained and compared Linear Regression, Random Forest, and a Neural Network (MLP) to determine which model performs best for short-term AQI forecasting.
 
@@ -33,7 +32,6 @@ cs171-final-project/
 ├── justin_clean_airquality.csv
 │
 └── README.md
-
 
 ## Dataset Description
 Source: UCI Machine Learning Repository – Air Quality Dataset
