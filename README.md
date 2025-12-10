@@ -17,6 +17,7 @@ The project includes:
 - Clear separation of partner responsibilities
 
 ## Repository Structure
+```
 cs171-final-project/
 │
 ├── vince_preprocessing.ipynb
@@ -31,6 +32,7 @@ cs171-final-project/
 ├── justin_clean_airquality.csv
 │
 └── README.md
+```
 
 ## Dataset Description
 Source: UCI Machine Learning Repository – Air Quality Dataset
