@@ -63,133 +63,80 @@ justin_preprocessing.ipynb
 - Created datetime column and ordered data chronologically
 - Saved dataset for neural network training
 
-Models Trained
-Vince – Linear Regression & Random Forest
-
+## Models Trained
+### Vince – Linear Regression & Random Forest
 vince_model.ipynb
-
-Linear Regression
-
-Baseline model
-
-Simple and interpretable
-
-Captures general AQI trend
-
-Struggles with extreme AQI values
-
-Performance:
-
+#### Linear Regression
+- Baseline model
+- Simple and interpretable
+- Captures general AQI trend
+- Struggles with extreme AQI values
+- Performance:
 MAE ≈ 47
-
 RMSE ≈ 65
-
 R² ≈ 0.78
-
-Random Forest
-
-300 trees, max depth 15
-
-Captures nonlinear interactions
-
-More accurate and robust than Linear Regression
-
-Feature importance highlights NMHC and CO as strongest predictors
-
-Performance:
-
+#### Random Forest
+- 300 trees, max depth 15
+- Captures nonlinear interactions
+- More accurate and robust than Linear Regression
+- Feature importance highlights NMHC and CO as strongest predictors
+- Performance:
 MAE ≈ 49
-
 RMSE ≈ 63
-
 R² ≈ 0.80
 
-Justin – Neural Network (MLP)
-
+### Justin – Neural Network (MLP)
 justin_model.ipynb
+- Multiple architectures tested
+- Best model used hidden sizes [256, 128, 64]
+- ReLU activation and Adam optimizer
+- Achieved test MSE ≈ 0.196
 
-Multiple architectures tested
-
-Best model used hidden sizes [256, 128, 64]
-
-ReLU activation and Adam optimizer
-
-Achieved test MSE ≈ 0.196
-
-Analysis and Visualization
-
+## Analysis and Visualization
 analysis_visualization.ipynb
-
 Includes:
-
-Prediction vs actual plots for all models
-
-Random Forest feature importance
-
-Neural network training curves
-
-Comparison table of all model metrics
+- Prediction vs actual plots for all models
+- Random Forest feature importance
+- Neural network training curves
+- Comparison table of all model metrics
 
 Key findings:
+- Linear Regression provides a reliable baseline
+- Random Forest achieves better accuracy and interpretability
+- Neural Network performs competitively with slight overfitting
 
-Linear Regression provides a reliable baseline
+## Roles and Responsibilities
+### Vince Lai
+- Preprocessing notebook
+- Linear Regression model
+- Random Forest model
+- Analysis & visualization for LR/RF
+- Presentation sections
 
-Random Forest achieves better accuracy and interpretability
+### Justin Nguyen
+- Preprocessing notebook
+- Neural Network model
+- Analysis & visualization for NN
+- Presentation sections
 
-Neural Network performs competitively with slight overfitting
-
-Roles and Responsibilities
-Vince Lai
-
-Preprocessing notebook
-
-Linear Regression model
-
-Random Forest model
-
-Analysis & visualization for LR/RF
-
-Presentation sections
-
-Justin Nguyen
-
-Preprocessing notebook
-
-Neural Network model
-
-Analysis & visualization for NN
-
-Presentation sections
-
-Installation Instructions
+## Installation Instructions
 Install required packages:
-
 pip install pandas numpy matplotlib seaborn scikit-learn torch
 
-
 Run order:
-
-Preprocessing notebooks
-
-Model notebooks
-
-Analysis notebook
-
+1. Preprocessing notebooks
+2. Model notebooks
+3. Analysis notebook
 All notebooks run on any OS with Python 3.10+.
-Future Work
 
-Hyperparameter tuning
+## Future Work
+- Hyperparameter tuning
+- LSTM or other time-series models
+- Improved AQI calculations
+- Real-time AQI prediction API pipeline
+- Cross-validation for more robust evaluation
 
-LSTM or other time-series models
-
-Improved AQI calculations
-
-Real-time AQI prediction API pipeline
-
-Cross-validation for more robust evaluation
-
-Project Status: Complete and Ready for Grading
-
+## Project Status: Complete and Ready for Grading
 Thank you for reviewing our project!
 
 ## License
