@@ -1,7 +1,7 @@
 # CS171 Final Project — Air Quality Prediction
 ### Authors
 - Vince Lai ([VinceLai1026](https://github.com/VinceLai1026))
-- Jjmaxxx ([Jjmaxxx](https://github.com/Jjmaxxx))
+- Justin Lee ([Jjmaxxx](https://github.com/Jjmaxxx))
 ### Instructor: Dr. Mike Wood  
 ### Semester: Fall 2025 
 This project predicts next-hour Air Quality Index (AQI) using pollutant sensor data and weather measurements from the UCI Air Quality Dataset.
@@ -114,7 +114,7 @@ Key findings:
 - Analysis & visualization for LR/RF
 - Presentation sections
 
-### Justin Nguyen
+### Justin Lee
 - Preprocessing notebook
 - Neural Network model
 - Analysis & visualization for NN
